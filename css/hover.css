@@ -1,0 +1,48 @@
+
+
+.slis1 .l1{    
+margin-top:30px;
+font-weight: 800;
+    font-style: normal;
+    color: #313131;
+    display: block;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 13px;
+    min-height: 33px;}
+
+					 
+.slis1 ul{list-style-type:none;
+  display:block;
+  }  
+  
+.slis1 li{padding:7px;
+      font-weight: 400;
+    font-style: normal;
+    color: #646060;
+    display: block;
+    font-size: 12px;
+    line-height: 15px;
+    
+  
+  
+  }
+  
+ .slis1 li{text-decoration:none;
+ color: #313131; }
+  
+ .slis1 li:hover{color: black; cursor:pointer;}
+  
+
+
+.panel{position:absolute;
+z-index:1;
+margin-top:50px;
+overflow:auto;
+background-color:#FEFEFE;
+            width:100%;
+           white-space: nowrap;
+		   opacity:0.9;
+		  
+}
+

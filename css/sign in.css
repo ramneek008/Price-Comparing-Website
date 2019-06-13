@@ -1,0 +1,118 @@
+body
+				{
+				background-color:#e7e7e7;
+				}
+				
+			.si{position:absolute;
+			top:90px;}
+			
+			.si h1
+				{
+				font-size:30px;
+				margin-top:20px;
+				font-family:'Merienda One';
+				letter-spacing:2px;
+				text-align:center;
+				margin-left:180px;
+				}
+			
+			.si hr
+				{
+				width:55%;
+				height:0.01px;
+				color:light gray;
+				margin-left:350px;
+				}
+			
+			.si form
+				{
+				float:left;
+				font-size:13px;
+				margin:40px 40px 40px 320px;
+				}
+			
+			input[type=text],[type=email],[type=password]
+				{
+				width:300px;
+				padding:10px 20px;
+				margin:7px 0;
+				border:1px solid white;
+				}
+			
+			input[type=text]:focus,[type=email]:focus,[type=password]:focus
+				{
+				border:1px solid #999999;
+				}
+			
+			input[type=submit]
+				{
+				background-color:#1a1a1a;
+				border:none;
+				color:white;
+				letter-spacing:1px;
+				padding:14px 90px;
+				cursor:pointer;
+				transition:0.4s;
+				}
+			
+			
+			input[type=submit]:hover
+				{
+				background-color:#404040;
+				}
+			
+			.si form a
+				{
+				text-decoration:none;
+				color:#737373;
+				}
+			
+			.si form a:hover
+				{
+				color:#333333;
+				}
+			
+			.si h3
+				{
+				font-size:20px;
+				float:left;
+				margin:30px 40px 10px 40px;
+				}
+			
+			.si p
+				{
+				font-size:18px;
+				float:left;
+				margin:12px 40px 1px 40px;
+				}
+			
+			.si ul
+				{
+				float:left;
+				}
+
+			.si li
+				{
+				font-size:17px;
+				margin:10px 38px 10px 40px;
+				}
+			
+			.si button
+				{
+				margin:0px 40px 1px 65px;
+				background-color:#d9d9d9;
+				float:left;
+				border:2px solid black;
+				color:black;
+				letter-spacing:1px;
+				padding:12px 60px;
+				cursor:pointer;
+				transition:0.4s;
+				}
+			
+			.si button:hover
+				{
+				background-color:black;
+				border:2px solid black;
+				color:white;
+				}
