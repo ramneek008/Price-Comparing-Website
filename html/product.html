@@ -1,0 +1,314 @@
+
+<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Gloria Hallelujah' rel='stylesheet'>
+		<title>Trendzone</title>
+		<link rel="icon" href="../res/tz4.png" type="image/png" sizes="16x16">
+		<link rel="stylesheet" type="text/css" href="../css/footer.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Delius' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Carrois Gothic SC' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Nova Oval' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Julius Sans One' rel='stylesheet'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Encode Sans Semi Expanded' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=El Messiri' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Laila' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
+		<link rel="stylesheet" type="text/css" href="../css/navigation.css">
+		<link rel="stylesheet" type="text/css" href="../css/details.css">
+		<link rel="stylesheet" type="text/css" href="../css/description.css">
+		<link rel="stylesheet" type="text/css" href="../css/hover.css">
+		<link rel="stylesheet" type="text/css" href="../css/footer.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<script src="../jquery.js"></script>
+
+<style>
+
+	html
+	{scroll-behavior: smooth;}
+		.image img{
+
+		height:100%;
+		width:440px;
+
+		transition:width 1s,height 1s;
+		}
+		.image:hover img{
+		height:103%;
+		width:103%;
+		}
+		.image{
+
+		overflow:hidden;
+		height:93%;
+		cursor:pointer;
+		background-size:contain;
+		margin-left:250px;
+		width:440px;
+		}
+		body{background-color:#E8E8E8;}
+		img{border:2px solid white;}
+		.sticky{
+
+		position:sticky;
+		top:60px;
+
+		}
+
+		
+		
+		.zoomer
+		{
+		width:100%;
+		height:100%;
+		display:none;
+		position:fixed;
+		z-index:1;
+		background-color:rgba(0,0,0,0.9);
+		overflow:scroll;
+		cursor:grab;
+
+		}
+		
+		#compare
+		{position:absolute;
+		top:3470px;
+		left:140px;}
+		
+		#compare1,#compare2,#compare3
+		{float:left;
+		margin:8px;
+	background-color:white;}
+		
+		#compare #buy1, #compare #buy2, #compare #buy3
+		{
+		position:absolute;
+		float:left;
+		bottom:25px;
+		margin-left:62px;
+		border:1px solid white;
+		padding:5;
+		}
+		
+		#compare #buy1:hover, #compare #buy2:hover, #compare #buy3:hover
+		{
+		background-color:#ffe066;
+		transition:0.6s;
+		}
+		#lt
+		{
+		margin-top:1120px;
+		}
+		#rate1,#rate2,#rate3{
+		margin-left:75px;
+	margin-top:15px}
+
+</style>  
+		
+
+		<script>
+			$(document).ready(function(){
+				$("#main1").mouseenter(function(){
+    $("#panel1").slideDown(800);
+  });
+  $("#main1").mouseleave(function(){
+    $("#panel1").slideUp(10);
+  });
+  $("#panel1").mouseenter(function(){
+    $("#panel1").stop();
+  });
+  $("#panel1").mouseenter(function(){
+    $("#panel1").slideDown(100);
+  });
+  $("#panel1").mouseleave(function(){
+    $("#panel1").slideUp(10);
+  });
+  
+  $("#main2").mouseenter(function(){
+    $("#panel2").slideDown(800);
+  });
+  $("#main2").mouseleave(function(){
+    $("#panel2").slideUp(10);
+  });
+  $("#panel2").mouseenter(function(){
+    $("#panel2").stop();
+  });
+  $("#panel2").mouseenter(function(){
+    $("#panel2").slideDown(100);
+  });
+  $("#panel2").mouseleave(function(){
+    $("#panel2").slideUp(10);
+  });
+  
+  
+  
+  $("#main3").mouseenter(function(){
+    $("#panel3").slideDown(800);
+  });
+  $("#main3").mouseleave(function(){
+    $("#panel3").slideUp(10);
+  });
+  $("#panel3").mouseenter(function(){
+    $("#panel3").stop();
+  });
+  $("#panel3").mouseenter(function(){
+    $("#panel3").slideDown(100);
+  });
+  $("#panel3").mouseleave(function(){
+    $("#panel3").slideUp(10);
+  });
+
+	  $(".buttonsu").click(function(){
+		$("#buttonsu1").toggle();
+		$("#buttonsu2").toggle();
+		$("#buttonsu1").animate({
+			fontSize:'14px'
+		});
+	  });
+	  
+	});
+
+	$(document).scroll(function(){
+    var bheight = $(window).height();
+    var percent = 0.91;
+    var hpercent = bheight * percent;
+
+    if($(this).scrollTop() > hpercent)
+    {   
+			$('#details').css({"position":"absolute","top":"3180px"});
+    }else{
+			$('#details').css({"position":"fixed","top":"57px"});
+    }
+});
+
+	  </script>
+
+
+</head>
+
+<div class="start" >
+		<nav class="navbar navbar-default navbar-fixed-top navbar-static-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+				<a class="navbar-brand" href="index.html" style=" font-family: 'Gloria Hallelujah';font-size:22px;color:#b30000;margin-right:20px"><b>TZ.</b></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">  
+						<li id="main1"><a href="men.html" style="color:black;font-family: 'Delius';font-size: 14px;">MEN</a></li>
+						<li id="main2"><a href="women.html" style="color:black;font-family: 'Delius';font-size: 14px;">WOMEN</a></li>
+						<li id="main3"><a href="house nd living.html" style="color:black;font-family: 'Delius';font-size: 14px;">HOME & LIVING</a></li>
+				</ul>
+				 <ul class="nav navbar-nav navbar-right">
+      <li><a href=""><span class="glyphicon glyphicon-search"></span></a></li>
+	  <li id="buttonsu2"><a href="#"><span class="glyphicon glyphicon-heart-empty"></span></a></li>
+	  <li id="buttonsu1" style="display:none;font-size:60px"><a href="#"><span class="glyphicon glyphicon-heart"></span></a></li>
+	  <li><a href="sign in.html"><span class="glyphicon glyphicon-user"></span></a></li>
+    </ul>
+			</div>
+		</div>
+		</nav></div>
+
+		<div class="panel" id="panel1" style="position:fixed;top:0px;height:320px; z-index:2; display:none" >
+  </div>
+  		
+  <div class="panel" id="panel2" style="position:fixed;top:0px;height:270px; z-index:2; display:none" >
+    
+</div>
+  
+  <div class="panel" id="panel3" style="position:fixed;top:0px;height:370px; z-index:2; display:none" >
+  
+  </div>
+  
+		<script src="../js/navigation.js"></script>	
+  
+  
+	
+<div class="zoomer" id="zooming"></div>
+
+<script src="../js/path.js"></script>	
+ <script src="../js/color.js"></script> 
+			 
+		 
+
+
+
+<div id="details" style="background-color:rgba(255, 254, 254, 0.658);height:570px;";>
+
+	
+</div>
+<script src="../js/p1.js"></script>
+<script src="../js/details.js"></script>
+
+<div id="images" style="">
+
+<div class="image" id="i1"> </div>
+             
+<div class="image" id="i2"> </div>
+             
+<div class="image"id="i3" > </div>
+            
+<div class="image" id="i4"> </div>
+             
+<div class="image sticky" id="i5" style=""> </div>
+    
+
+<script src="../js/display.js"></script>
+<script src="../js/product.js"></script>
+
+
+</div>
+
+
+
+
+<div id="description" style="background-color:;height:400px;">
+<script src="../js/para.js"></script>
+<script src="../js/description.js"></script>
+
+
+
+<script src="../js/flipkart.js"></script>
+          <script src="../js/amazon.js"></script>
+          <script src="../js/myntra.js"></script>
+
+</div>
+<div id="compare">
+	<div id="compare1" style="width:210px;height:230px;border:1px solid grey">
+		<div id="cmpimg1"><img src="../res/myntra.png" style="width:130px;height:120px;margin-left:40px;margin-top:15px;border-radius:40px;"></div>
+		<div id="rate1">Rs.2499</div>
+		<a href="https://www.myntra.com/Jeans/Flying-Machine/Flying-Machine-Men-Black-Michael-Slim-Tapered-Fit-High-Rise-Clean-Look-Stretchable-Jeans/2474498/buy";><button id="buy1" >BUY NOW</button></a>
+	</div>
+	<div id="compare2"  style="width:210px;height:230px;border:1px solid grey">
+		<div id="cmpimg1"><img src="../res/flipkart.jpg" style="width:130px;height:120px;margin-left:40px;margin-top:15px;border-radius:40px;"></div>
+		<div id="rate2">Rs.2559</div>
+		<a href="https://www.flipkart.com/flying-machine-slim-men-s-black-jeans/p/itmf6qxsfpzdyft6?pid=JEAF6QPUFAFMTKAK&lid=LSTJEAF6QPUFAFMTKAKEDNKXT&marketplace=FLIPKART&srno=s_1_20&otracker=search&fm=SEARCH&iid=ce107d3a-f9b4-484a-a2ae-681a961177bf.JEAF6QPUFAFMTKAK.SEARCH&ppt=SearchPage&ppn=Search&ssid=90cywg0rts0000001539890466945&qH=34d31884b99b12cb";><button id="buy2">BUY NOW</button></a>
+	</div>
+	<div id="compare3"  style="width:210px;height:230px;border:1px solid grey">
+		<div id="cmpimg1"><img src="../res/amazon1.jpg" style="width:180px;height:120px;margin-left:10px;margin-top:15px;border-radius:40px;"></div>
+		<div id="rate3">Rs.2799</div>
+		<button id="buy3"><a href="https://www.amazon.in/F2000-Flying-Machine-8907538547323_F2JN0045_38W-33L_Black/dp/B072X5V4HM/ref=sr_1_10?ie=UTF8&qid=1539867480&sr=8-10&keywords=flying+machine+men+black+jeans"><button id="buy3">BUY NOW</button></a>
+	</div>
+</div>
+
+
+	<div id="lt">
+		
+		
+		</div>
+		<script src="../js/footer.js"></script>

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Gloria Hallelujah' rel='stylesheet'>
+		<title>MEN</title>
+		<link rel="icon" href="../res/tz4.png" type="image/png" sizes="16x16">
+		<link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Encode Sans Semi Expanded' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=El Messiri' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Gugi' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Delius' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Nova Oval' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Julius Sans One' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="../jquery.js"></script>
+				<link rel="stylesheet" type="text/css" href="../css/navigation.css">
+		<link rel="stylesheet" type="text/css" href="../css/details.css">
+		<link rel="stylesheet" type="text/css" href="../css/description.css">
+		<link rel="stylesheet" type="text/css" href="../css/hover.css">
+		<link rel="stylesheet" type="text/css" href="../css/men.css">
+		<link rel="stylesheet" type="text/css" href="../css/footer.css">
+		<script src="../js/path.js"></script>
+		
+				<script>
+		$(document).ready(function(){
+			$("#main1").mouseenter(function(){
+    $("#panel1").slideDown(800);
+  });
+  $("#main1").mouseleave(function(){
+    $("#panel1").slideUp(10);
+  });
+  $("#panel1").mouseenter(function(){
+    $("#panel1").stop();
+  });
+  $("#panel1").mouseenter(function(){
+    $("#panel1").slideDown(100);
+  });
+  $("#panel1").mouseleave(function(){
+    $("#panel1").slideUp(10);
+  });
+  
+  $("#main2").mouseenter(function(){
+    $("#panel2").slideDown(800);
+  });
+  $("#main2").mouseleave(function(){
+    $("#panel2").slideUp(10);
+  });
+  $("#panel2").mouseenter(function(){
+    $("#panel2").stop();
+  });
+  $("#panel2").mouseenter(function(){
+    $("#panel2").slideDown(100);
+  });
+  $("#panel2").mouseleave(function(){
+    $("#panel2").slideUp(10);
+  });
+  
+  
+  
+  $("#main3").mouseenter(function(){
+    $("#panel3").slideDown(800);
+  });
+  $("#main3").mouseleave(function(){
+    $("#panel3").slideUp(10);
+  });
+  $("#panel3").mouseenter(function(){
+    $("#panel3").stop();
+  });
+  $("#panel3").mouseenter(function(){
+    $("#panel3").slideDown(100);
+  });
+  $("#panel3").mouseleave(function(){
+    $("#panel3").slideUp(10);
+  });
+
+	
+  $("#filter").click(function(){
+    $("#filter1").toggle();
+  });
+  $("#gb1").click(function(){
+    $("#filter1").hide();
+  });
+  $("#gb2").click(function(){
+    $("#filter1").hide();
+	$("#hi").hide(100)
+	.show(500);
+  });
+  
+  
+  $("#sort").click(function(){
+    $("#sortb").toggle();
+  });
+  $("#ha1").click(function(){
+    $("#ha").text("What's New");
+	$("#sortb").hide();
+	$("#hi").hide(100)
+	.show(500);
+  });
+  $("#ha2").click(function(){
+    $("#ha").text("Popularity");
+	$("#sortb").hide();
+	$("#hi").hide(100)
+	.show(500);
+  });
+  $("#ha3").click(function(){
+    $("#ha").text("Better Discount");
+	$("#sortb").hide();
+	$("#hi").hide(100)
+	.show(500);
+  });
+  $("#ha4").click(function(){
+    $("#ha").text("Price: High to Low");
+	$("#sortb").hide();
+	$("#hi").hide(100)
+	.show(500);
+  });
+  $("#ha5").click(function(){
+    $("#ha").text("Price: Low to High");
+	$("#sortb").hide();
+	$("#hi").hide(100)
+	.show(500);
+  });
+  $("#ha6").click(function(){
+    $("#ha").text("Faster Delivery");
+	$("#sortb").hide();
+	$("#hi").hide(100)
+	.show(500);
+	});
+	
+	$("#butt3").click(function(){
+		$("#butt1").toggle();
+		$("#butt2").toggle();
+		$("#butt1").animate({
+			fontSize:'14px'
+		});
+	  });
+	
+
+});
+
+	</script>
+		
+     <style>
+       
+		 .s1:hover +.i1{display:none;} .i1:hover{display:none;}
+		 
+		 .i1,.s1{width:330px;  position:absolute; }  
+		 
+
+		  .specify{
+		  position:absolute;
+		  top:438px;
+		  margin-left:0px;
+		  width:330px;
+		  height:100px;
+		  background-color:#f5f5f0;
+		  z-index:1;
+		  display:none;
+    font-weight: 400;
+    font-style: normal;
+    color: #313131;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+   text-align:center;
+		text-transform: none;
+		  }
+		  .specify p{margin-top:10px;}
+		  .main:hover .specify{
+		  display:block;
+		  }
+        
+		#filtering{
+		position:absolute;
+		top:83px;
+		width:100%;
+		background-color:white;
+		height:45px;
+		border-bottom:1px solid #bfbfbf;}
+		
+		.magic
+		{
+		float:right;
+		}
+		
+		#filter1{
+		position:fixed;
+		width:100%;
+		height:60%;
+		margin-top:71px;
+		z-index:1;
+		background-color:white;
+		display:none;
+		}
+		#filt{
+		width:50%;
+		margin-top:50px;
+		margin-left:400px;
+		}
+		
+		
+		#lt
+				{
+					margin-top:750px;
+					margin-left:-20px;
+				}
+	
+		
+     </style>
+</head>       
+
+<body>
+             
+	<div class="start" >
+		<nav class="navbar navbar-default navbar-fixed-top navbar-static-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+				<a class="navbar-brand" href="index.html" style=" font-family: 'Gloria Hallelujah';font-size:22px;color:#b30000;margin-right:20px"><b>TZ.</b></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">  
+						<li id="main1"><a href="men.html" style="color:black;font-family: 'Delius';font-size: 14px;">MEN</a></li>
+						<li id="main2"><a href="women.html" style="color:black;font-family: 'Delius';font-size: 14px;">WOMEN</a></li>
+						<li id="main3"><a href="house nd living.html" style="color:black;font-family: 'Delius';font-size: 14px;">HOME & LIVING</a></li>
+				</ul>
+				 <ul class="nav navbar-nav navbar-right">
+      <li><a href=""><span class="glyphicon glyphicon-search"></span></a></li>
+      <li id="butt2"><a href="#"><span class="glyphicon glyphicon-heart-empty"></span></a></li>
+	  <li id="butt1" style="display:none;font-size:60px"><a href="#"><span class="glyphicon glyphicon-heart"></span></a></li>
+	  <li><a href="sign in.html"><span class="glyphicon glyphicon-user"></span></a></li>
+    </ul>
+			</div>
+		</div>
+		</nav></div>
+
+		<div class="panel" id="panel1" style="position:fixed;top:0px;height:320px; z-index:2; display:none" >
+		</div>
+				
+		<div class="panel" id="panel2" style="position:fixed;top:0px;height:270px; z-index:2; display:none" >
+		  
+	  </div>
+		
+		<div class="panel" id="panel3" style="position:fixed;top:0px;height:370px; z-index:2; display:none" >
+		
+		</div>
+		
+					  <script src="../js/navigation.js"></script>	
+		
+		
+<div style="position:fixed;top:50px;width:100%;z-index:1">
+<ul class="breadcrumb" style="font-size:12px;width:200%">
+    <li><a href="#" id="x1"></a></li>
+    <li><a href="#" id="x2"></a></li>
+    <li id="x3" class="active"></li>      
+  </ul>
+  </div>
+  <div id="filtering";>
+<button type="button" id="filter" style="position:absolute;right:250px;top:8px;height:30px;width:120px;border:1px solid grey;background-color:white">FILTER</button>
+<button type="button" id="sort" style="position:absolute;right:13px;top:8px;height:30px;width:230px;border:1px solid grey;padding-left:10px;background-color:white;text-align:left">Sort By : <b><span id="ha">Recommended</span></b><span class="glyphicon glyphicon-menu-down" style="position:absolute;right:5px;top:6px"></span></button>
+</div>			
+
+<div id="filter1" style="">
+<table id="filt">
+	<tr>
+		<td colspan="2" style="font-size:20px; font-family: 'Biryani';">COLOR</td>
+		<td colspan="2" style="font-size:20px; font-family: 'Biryani';">PRODUCT SIZE</td>
+	</tr>
+	<tr>
+		<td style="padding-top:20px;"><input type="checkbox">All</td>
+		<td style="padding-top:20px;"><input type="checkbox">Red</td>
+		<td style="padding-top:20px;"><input type="checkbox">All</td>
+		<td style="padding-top:20px;"><input type="checkbox">44</td>
+	</tr>
+	<tr>
+		<td style="padding-top:5px"><input type="checkbox">Blue</td>
+		<td style="padding-top:5px"><input type="checkbox">Grey</td>
+		<td style="padding-top:5px"><input type="checkbox">46</td>
+		<td style="padding-top:5px"><input type="checkbox">54</td>
+	</tr>
+	<tr>
+		<td style="padding-top:5px"><input type="checkbox">Brown</td>
+		<td style="padding-top:5px"><input type="checkbox">Purple</td>
+		<td style="padding-top:5px"><input type="checkbox">48</td>
+		<td style="padding-top:5px"><input type="checkbox">56</td>
+	</tr>
+	<tr>
+		<td style="padding-top:5px"><input type="checkbox">Green</td>
+		<td style="padding-top:5px"><input type="checkbox">White</td>
+		<td style="padding-top:5px"><input type="checkbox">50</td>
+		<td style="padding-top:5px"><input type="checkbox">58</td>
+	</tr>
+	<tr>
+		<td style="padding-top:5px"><input type="checkbox">Beige</td>
+		<td style="padding-top:5px"><input type="checkbox">Yellow</td>
+		<td style="padding-top:5px"><input type="checkbox">52</td>
+		<td style="padding-top:5px"><input type="checkbox">U</td>
+	</tr>
+</table>
+<p style="text-align:center;margin-top:40px;">You can select several options at once.</p>
+<button style="background-color:white;border:1px solid black;width:150px; margin-left:500px;margin-right:40px;height:40px;padding-top:px;font-size:15px" id="gb1">CLOSE</button><button style="background-color:black;border:1px solid black;color:white ; width:150px;height:40px;padding-top:;font-size:15px" id="gb2">APPLY</button>
+
+</div>
+
+<div id="sortb" style="width:230px;position:fixed;z-index:1;right:13px;top:121px;background-color:white; border:1px solid grey;border-top:0px;display:none">
+<button type="button" class="srt" id="ha1" onclick="" style="height:30px;margin-top:12px;width:100%;background-color:white;padding-left:20px;border:1px solid white;text-align:left">What's New</button>
+<button type="button" class="srt" id="ha2" onclick="" style="height:30px;padding-top:4px;width:100%;background-color:white;padding-left:20px;border:1px solid white;text-align:left">Popularity</button>
+<button type="button" class="srt" id="ha3" onclick="" style="height:30px;padding-top:4px;width:100%;background-color:white;padding-left:20px;border:1px solid white;text-align:left">Better Discount</button>
+<button type="button" class="srt" id="ha4" onclick="" style="height:30px;padding-top:4px;width:100%;background-color:white;padding-left:20px;border:1px solid white;text-align:left">Price: High to Low</button>
+<button type="button" class="srt" id="ha5" onclick="" style="height:30px;padding-top:4px;width:100%;background-color:white;padding-left:20px;border:1px solid white;text-align:left">Price: Low to High</button>
+<button type="button" class="srt" id="ha6" onclick="" style="height:30px;padding-top:4px;margin-bottom:12px;width:100%;padding-left:20px;background-color:white;border:1px solid white;text-align:left">Faster Delivery</button>
+
+</div>
+	
+ <div class="space" style="margin-top:70px;"></div>
+ 
+			<div class="container-fluid" id="hi" style="width:99%;margin-left:-5px">
+			
+		 <div class="row" style="margin-top:10px;display:none">
+			<div id="p1" class="col-sm-3 main" ></div>
+			<div id="p2" class="col-sm-3 main"></div>
+			<div id="p3" class="col-sm-3 main"></div>
+			<div id="p4" class="col-sm-3 main"></div>
+		</div>
+		<div class="row" style="margin-top:100px;">
+			<div id="p5" class="col-sm-3 main" ></div>
+			<div id="p6" class="col-sm-3 main"></div>
+			<div id="p7" class="col-sm-3 main"></div>
+			<div id="p8" class="col-sm-3 main"></div>
+		</div>
+		<div class="row" style="margin-top:425px;">
+			<div id="p9" class="col-sm-3 main" ></div>
+			<div id="p10" class="col-sm-3 main"></div>
+			<div id="p11" class="col-sm-3 main"></div>
+			<div id="p12" class="col-sm-3 main"></div>
+		</div>
+		<div class="row" style="margin-top:425px;">
+			<div id="p13" class="col-sm-3 main" ></div>
+			<div id="p14" class="col-sm-3 main"></div>
+			<div id="p15" class="col-sm-3 main"></div>
+			<div id="p16" class="col-sm-3 main"></div>
+		</div>
+		<div class="row" style="margin-top:425px;">
+			<div id="p17" class="col-sm-3 main" ></div>
+			<div id="p18" class="col-sm-3 main"></div>
+			<div id="p19" class="col-sm-3 main"></div>
+			<div id="p20" class="col-sm-3 main"></div>
+		</div>
+		<div class="row" style="margin-top:425px;">
+			<div id="p21" class="col-sm-3 main" ></div>
+			<div id="p22" class="col-sm-3 main"></div>
+			<div id="p23" class="col-sm-3 main"></div>
+			<div id="p24" class="col-sm-3 main"></div>
+		</div>
+		<div class="row" style="margin-top:425px;">
+			<div id="p25" class="col-sm-3 main" ></div>
+			<div id="p26" class="col-sm-3 main"></div>
+			<div id="p27" class="col-sm-3 main"></div>
+			<div id="p28" class="col-sm-3 main"></div>
+		</div>
+		<div class="row" style="margin-top:425px;">
+			<div id="p29" class="col-sm-3 main" ></div>
+			<div id="p30" class="col-sm-3 main"></div>
+			<div id="p31" class="col-sm-3 main"></div>
+			<div id="p32" class="col-sm-3 main"></div>
+		</div>
+		</div>
+		<script src="../js/p1.js"></script>
+			
+			<script src="../js/display.js"></script>
+            <script src="../js/product.js"></script>
+			
+			
+			
+			
+			
+			<div id="lt">
+		
+		
+			</div>
+			<script src="../js/footer.js"></script>
+		
+			
+			
+			
+			
+</body>
+
+
+		 
