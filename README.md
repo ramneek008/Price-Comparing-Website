@@ -6,6 +6,6 @@ This website relies on:
 2. CSS
 3. Javascript
 4. Jquery
-5. Bootstrap
+5. Bootstrap 3 
 
 Working futher on the responsiveness.
