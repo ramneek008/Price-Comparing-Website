@@ -1,4 +1,4 @@
-# Price-Comparison-Website
+# Price-Comparing-Website
 This website compares prices of the selected product and redirects individual to his preferred website.
 
 This website relies on:
