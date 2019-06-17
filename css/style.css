@@ -2,142 +2,142 @@
 
 
 			#buttn1 , #buttn2
-				{
-				font-size:12px;
-				border:2px outset #595959;
-				position:absolute;
-				font-family:'Carrois Gothic SC';
-				letter-spacing:3px;
-				top:500px;
-				left:520px;
-				z-index:1;
-				text-decoration:none;
-				color:#fff;
-				border: 1px solid #fff;
-				display: inline-block;
-				line-height: 1;
-				width:142px;
-				height:38px;
-				background-color:black;
-				transition: opacity 1s 1.5s ease, background .7s, color .7s;
-				}
+			{
+			font-size:12px;
+			border:2px outset #595959;
+			position:absolute;
+			font-family:'Carrois Gothic SC';
+			letter-spacing:3px;
+			top:550px;
+			left:570px;
+			z-index:1;
+			text-decoration:none;
+			color:#fff;
+			border: 1px solid #fff;
+			display: inline-block;
+			line-height: 1;
+			width:142px;
+			height:38px;
+			background-color:black;
+			transition: opacity 1s 1.5s ease, background .7s, color .7s;
+			}
 
- 
+
+
+		#buttn2
+			{
+			position:absolute;
+			
+			left:800px;
+			}
 	
-			#buttn2
-				{
-				position:absolute;
-				
-				left:690px;
-				}
+		#quote
+			{
+			font-size:55px;
+			color:white;
+			position:absolute;
+			top:395px;
+			left:420px;
+			font-family: 'Julius Sans One';
+			z-index:1;
+			text-shadow: 1px 1px black;
+			}
+			
 		
-			#quote
-				{
-				font-size:55px;
-				color:white;
-				position:absolute;
-				top:340px;
-				left:310px;
-				font-family: 'Julius Sans One';
-				z-index:1;
-				text-shadow: 1px 1px black;
-				}
-				
+		#quote:hover
+			{
+			color:black;
+			text-shadow:1px 1px white;
+			}
 			
-			#quote:hover
-				{
-				color:black;
-				text-shadow:1px 1px white;
-				}
-				
-			.ab
-				{
-				position:absolute;
-				top:635px;
-				width:100%;
-				height:2065px;
-				background-color:#F5F5F5;
-				
-				}
+		.ab
+			{
+			position:absolute;
+			top:735px;
+			width:100%;
+			height:2065px;
+			background-color:#F5F5F5;
 			
+			}
+		
+		
+		.color1
+			{
+			position:absolute;
+			top:15px;
+			left:18px;
+			width:97.5%;
+			height:600px;
+			background-color:#E7E7E7;
+			opacity:1;
+			}
 			
-			.color1
-				{
-				position:absolute;
-				top:15px;
-				left:18px;
-				width:97.5%;
-				height:600px;
-				background-color:#E7E7E7;
-				opacity:1;
-				}
-				
+		
+		span.ab1:hover{display:none;}
+		div.ab1:hover + span.ab1{display:none;}
+		
+		.ab1
+			{
+			position: absolute;
+			margin-top:100px;
+			margin-left:300px;
 			
-			span.ab1:hover{display:none;}
-			div.ab1:hover + span.ab1{display:none;}
+			}
+		
+		
+		.t1{position:absolute;top:470px;left:580px;
+		font-size:15px;}
+				
+		.t1a
+			{
+			position:absolute;
+			top:500px;
+			left:430px;
+			font-size:30px;
+			}
+				
+				
+		.color2
+			{
+			position: absolute;
+			top:630px;
+			left:18px;
+			width:97.5%;
+			height:600px;
+			background-color:#E6E6E6
+			}
 			
-			.ab1
-				{
-				position: absolute;
-				margin-top:100px;
-				margin-left:300px;
-				
-				}
+		span.ab2:hover{display:none;}
+		div.ab2:hover + span.ab2{display:none;}
 			
+		.ab2
+			{
+			position:absolute;
+			margin-top:40px;
+			margin-left:400px;
+			}
+
+		.t2{position:absolute;top:500px;left:580px;
+		font-size:15px;}
+				
+		.t2a
+			{
+			position:absolute;
+			top:530px;
+			left:430px;
+			font-size:30px;
+			}
 			
-			.t1{position:absolute;top:470px;left:580px;
-			font-size:15px;}
-					
-			.t1a
-				{
-				position:absolute;
-				top:500px;
-				left:430px;
-				font-size:30px;
-				}
-					
-					
-			.color2
-				{
-				position: absolute;
-				top:630px;
-				left:18px;
-				width:97.5%;
-				height:600px;
-				background-color:#E6E6E6
-				}
-				
-			span.ab2:hover{display:none;}
-			div.ab2:hover + span.ab2{display:none;}
-				
-			.ab2
-				{
-				position:absolute;
-				margin-top:40px;
-				margin-left:400px;
-				}
-	
-			.t2{position:absolute;top:500px;left:580px;
-			font-size:15px;}
-					
-			.t2a
-				{
-				position:absolute;
-				top:530px;
-				left:430px;
-				font-size:30px;
-				}
-				
-			.color3
-				{
-				position: absolute;
-				top:1245px;
-				left:18px;
-				width:97.5%;
-				height:auto;
-				background-color:#E6E6E6
-				
-				}
-					
-					
+		.color3
+			{
+			position: absolute;
+			top:1245px;
+			left:18px;
+			width:97.5%;
+			height:auto;
+			background-color:#E6E6E6
 			
+			}
+				
+				
+		
