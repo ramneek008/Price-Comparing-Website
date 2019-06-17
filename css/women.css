@@ -1,279 +1,280 @@
 	
 			body
-				{
-				background-image:url("../res/images/model1.jpeg" );
-				background-size:1366px auto;
-				background-repeat:no-repeat;
-				background-attachment:fixed;
-				}
-			#quote
-				{
-				font-size:55px;
-				color:white;
-				position:absolute;
-				top:340px;
-				left:540px;
-				font-family: 'Julius Sans One';
-				z-index:1;
-				text-shadow: 2px 2px orange;
-				}
+			{
+			background-image:url("../res/images/model1.jpeg" );
+			background-size:1366px auto;
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			}
+		#quote
+			{
+			font-size:55px;
+			color:white;
+			position:absolute;
+			top:440px;
+			left:640px;
+			font-family: 'Julius Sans One';
+			z-index:1;
+			text-shadow: 2px 2px orange;
+			}
+			
+		
+		#quote:hover
+			{
+			color:#ffb3b3;
+			text-shadow: white;
+			}
+			
+			
+		span.men1:hover{display:none;}
+		div.men1:hover + span.men1{display:none;}
+		
+		
+		span.men2:hover{display:none;}
+		div.men2:hover + span.men2{display:none;}
+		
+		span.men3:hover{display:none;}
+		div.men3:hover + span.men3{display:none;}
+		
+		span.men4:hover{display:none;}
+		div.men4:hover + span.men4{display:none;}
+		
+		span.men5:hover{display:none;}
+		div.men5:hover + span.men5{display:none;}
+		
+		span.men6:hover{display:none;}
+		div.men6:hover + span.men6{display:none;}
+		
+		
+		.color1
+			{
+			position:absolute;
+			top:12px;
+			left:12px;
+			width:99%;
+			height:1099px;
+			background-color:white;
+			opacity:1;
+			}
+			.men1
+			{
+			position: absolute;
+			margin-top:	40px;
+			margin-left:50px;
+			}
+			
+		.t1
+			{
+			position:absolute;
+			top:970px;
+			left:250px;
+			font-size:30px;
+			}
 				
-			
-			#quote:hover
-				{
-				color:#ffb3b3;
-				text-shadow: white;
-				}
+		.t1a
+			{
+			position:absolute;
+			top:1030px;
+			left:300px;
+			font-size:19px;
+		letter-spacing: 1px;
+		font-weight: 200;
+font-style: normal;
+color: #313131;	
+			}
 				
-				
-			span.men1:hover{display:none;}
-			div.men1:hover + span.men1{display:none;}
+							
+		.color2
+			{
+			position: absolute;
+			top:12px;
+			right:12px;
+			height:550px;
+			width:97%;
+			background-color:white;
+			}
 			
 			
-			span.men2:hover{display:none;}
-			div.men2:hover + span.men2{display:none;}
-			
-			span.men3:hover{display:none;}
-			div.men3:hover + span.men3{display:none;}
-			
-			span.men4:hover{display:none;}
-			div.men4:hover + span.men4{display:none;}
-			
-			span.men5:hover{display:none;}
-			div.men5:hover + span.men5{display:none;}
-			
-			span.men6:hover{display:none;}
-			div.men6:hover + span.men6{display:none;}
-			
-			
-			.color1
-				{
-				position:absolute;
-				top:12px;
-				left:12px;
-				width:99%;
-				height:1099px;
-				background-color:white;
-				opacity:1;
-				}
-				.men1
-				{
-				position: absolute;
-				margin-top:	40px;
-				}
-				
-			.t1
-				{
-				position:absolute;
-				top:970px;
-				left:250px;
-				font-size:30px;
-				}
-					
-			.t1a
-				{
-				position:absolute;
-				top:1030px;
-				left:300px;
-				font-size:19px;
-            letter-spacing: 1px;
-			font-weight: 200;
-    font-style: normal;
-    color: #313131;	
-				}
-					
-								
-			.color2
-				{
-				position: absolute;
-				top:12px;
-				right:12px;
-				height:550px;
-				width:97%;
-				background-color:white;
-				}
-				
-				
-			.men2
-				{
-				position:absolute;
-				margin-top:0px;
-				margin-left:120px;
-				}
+		.men2
+			{
+			position:absolute;
+			margin-top:0px;
+			margin-left:150px;
+			}
 
-			.t2
-				{
-				position:absolute;
-				top:420px;
-				left:260px;
-				font-size:30px;
-				}
+		.t2
+			{
+			position:absolute;
+			top:420px;
+			left:290px;
+			font-size:30px;
+			}
+		
+		.t2a
+			{
+			position:absolute;
+			top:480px;
+			left:285px;
+			font-size:19px;
+		letter-spacing: 1px;
+		font-weight: 200;
+font-style: normal;
+color: #313131;	
+			}
+		
+		.color3
+			{
+			position: absolute;
+			top:566px;
+			right:12px;
+			width:97%;
+			height:546px;
+			background-color:white
+			}
 			
-			.t2a
-				{
-				position:absolute;
-				top:480px;
-				left:255px;
-				font-size:19px;
-            letter-spacing: 1px;
-			font-weight: 200;
-    font-style: normal;
-    color: #313131;	
-				}
+		.men3
+			{
+			position:absolute;
+			margin-top:83px;
+			margin-left:230px;
+			}
 			
-			.color3
-				{
-				position: absolute;
-				top:565px;
-				right:12px;
-				width:97%;
-				height:546px;
-				background-color:white
-				}
-				
-			.men3
-				{
-				position:absolute;
-				margin-top:83px;
-				margin-left:190px;
-				}
-				
-			.t3
-				{
-				position:absolute;
-				top:400px;
-				left:260px;
-				font-size:30px;
-				}
-				
-			.t3a
-				{
-				position:absolute;
-				top:460px;
-				left:270px;
-				font-size:19px;
-            letter-spacing: 1px;
-			font-weight: 200;
-    font-style: normal;
-    color: #313131;	
-				}
-	
-			.color4
-				{
-				position: absolute;
-				top:1113px;
-				width:100%;
-				height:535px;
-				left:12px;
-				background-color:white;
-				}
-				
-			.men4
-				{
-				position:absolute;
-				margin-top:50px;
-				margin-left:90px;
-				}
-				
-			.t4
-				{
-				position:absolute;
-				top:400px;
-				left:115px;
-				font-size:30px;
-				}
-				
-			.t4a
-				{
-				position:absolute;
-				top:460px;
-				left:160px;
-				font-size:19px;
-   
-                          letter-spacing: 1px;
-			font-weight: 200;
-    font-style: normal;
-    color: #313131;	}
-				
-				
-			.color5
-				{
-				position: absolute;
-				top:1113px;
-				width:95%;
-				height:535px;
-				background-color:white;
-				}
-				
-			.men5
-				{
-				position:absolute;
-				margin-top:70px;
-				margin-left:90px;
-				}
-				
-				
-			.t5
-				{
-				position:absolute;
-				top:400px;
-				left:165px;
-				font-size:30px;
-				}
-				
-			.t5a
-				{
-				position:absolute;
-				top:460px;
-				left:160px;
-				font-size:19px;
-            letter-spacing: 1px;
-			font-weight: 200;
-    font-style: normal;
-    color: #313131;	
-				}
-				
-			.color6
-				{
-				position:absolute;
-				top:1113px;
-				right:12px;
-				width:98%;
-				height:535px;
-				background-color:white;
-				}
-				
-			.men6
-				{
-				position:absolute;
-				margin-top:70px;
-				margin-left:100px;
-				}
-				
+		.t3
+			{
+			position:absolute;
+			top:400px;
+			left:300px;
+			font-size:30px;
+			}
 			
-			.t6
-				{position:absolute;
-				top:400px;
-				left:185px;
-				font-size:30px;
-				}
-				
-			.t6a
-				{
-				position:absolute;
-				top:460px;
-				left:175px;
-				font-size:19px;
-            letter-spacing: 1px;
-			font-weight: 200;
-    font-style: normal;
-    color: #313131;	
-				}
-				
-				
-				#lt
-				{
-					margin-top:-966px;
-					margin-left:-20px
-				}
-				
+		.t3a
+			{
+			position:absolute;
+			top:460px;
+			left:310px;
+			font-size:19px;
+		letter-spacing: 1px;
+		font-weight: 200;
+font-style: normal;
+color: #313131;	
+			}
+
+		.color4
+			{
+			position: absolute;
+			top:1117px;
+			width:100%;
+			height:535px;
+			left:12px;
+			background-color:white;
+			}
+			
+		.men4
+			{
+			position:absolute;
+			margin-top:50px;
+			margin-left:110px;
+			}
+			
+		.t4
+			{
+			position:absolute;
+			top:400px;
+			left:135px;
+			font-size:30px;
+			}
+			
+		.t4a
+			{
+			position:absolute;
+			top:460px;
+			left:180px;
+			font-size:19px;
+
+					  letter-spacing: 1px;
+		font-weight: 200;
+font-style: normal;
+color: #313131;	}
+			
+			
+		.color5
+			{
+			position: absolute;
+			top:1117px;
+			width:96%;
+			height:535px;
+			background-color:white;
+			}
+			
+		.men5
+			{
+			position:absolute;
+			margin-top:70px;
+			margin-left:120px;
+			}
+			
+			
+		.t5
+			{
+			position:absolute;
+			top:400px;
+			left:195px;
+			font-size:30px;
+			}
+			
+		.t5a
+			{
+			position:absolute;
+			top:460px;
+			left:190px;
+			font-size:19px;
+		letter-spacing: 1px;
+		font-weight: 200;
+font-style: normal;
+color: #313131;	
+			}
+			
+		.color6
+			{
+			position:absolute;
+			top:1117px;
+			right:12px;
+			width:98%;
+			height:535px;
+			background-color:white;
+			}
+			
+		.men6
+			{
+			position:absolute;
+			margin-top:70px;
+			margin-left:100px;
+			}
+			
+		
+		.t6
+			{position:absolute;
+			top:400px;
+			left:185px;
+			font-size:30px;
+			}
+			
+		.t6a
+			{
+			position:absolute;
+			top:460px;
+			left:175px;
+			font-size:19px;
+		letter-spacing: 1px;
+		font-weight: 200;
+font-style: normal;
+color: #313131;	
+			}
+			
+			
+			#lt
+			{
+				margin-top:-966px;
+				margin-left:-20px
+			}
+			
