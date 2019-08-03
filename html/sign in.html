@@ -78,9 +78,11 @@
 	
 	$("#magic1").click(function(){
 $("#popup").show();
+$(".si").css("opacity","0.4");
 	});
 	$("#cross").click(function(){
 $("#popup").hide();
+$(".si").css("opacity","1");
 	});
  
 });
@@ -188,7 +190,7 @@ $("#popup").hide();
 				<script src="../js/navigation.js"></script>	
   
 	
-	<div id="popup" style="margin-top:75px;margin-left:430px;width:750px;display:none;height:575px;background-color:white;border:3px outset black;border-radius:12px;z-index:1;">
+	<div id="popup" style="margin-top:80px;margin-left:390px;width:750px;display:none;height:575px;background-color:white;border:3px outset black;border-radius:12px;z-index:1;">
 	
 	 <span class="glyphicon glyphicon-remove" id="cross" style="margin-left:720px;margin-top:8px;"></span>
 			<h3>Create An Account</h3>
@@ -244,7 +246,7 @@ collections, events and initiatives.</pre></td>
 	
 	</div>
 		
-		<div class="si" style="z-index:-1;">
+		<div class="si" style="z-index:-1">
 			<h1 style="text-align:center">Sign In</h1>
 			<hr>
 			<form>
