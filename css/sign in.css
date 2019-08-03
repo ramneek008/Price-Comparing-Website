@@ -28,7 +28,7 @@ body
 				{
 				float:left;
 				font-size:13px;
-				margin:40px 40px 40px 344px;
+				margin:40px 1px 40px 380px;
 				}
 			
 			input[type=text],[type=email],[type=password]
@@ -76,14 +76,14 @@ body
 				{
 				font-size:20px;
 				float:left;
-				margin:30px 40px 10px 40px;
+				margin:30px 40px 10px 50px;
 				}
 			
 			.si p
 				{
 				font-size:18px;
 				float:left;
-				margin:12px 40px 1px 40px;
+				margin:12px 40px 1px 50px;
 				}
 			
 			.si ul
@@ -94,12 +94,12 @@ body
 			.si li
 				{
 				font-size:17px;
-				margin:10px 38px 10px 40px;
+				margin:10px 38px 10px 50px;
 				}
 			
 			.si button
 				{
-				margin:0px 40px 1px 65px;
+				margin:0px 40px 1px 75px;
 				background-color:#d9d9d9;
 				float:left;
 				border:2px solid black;
